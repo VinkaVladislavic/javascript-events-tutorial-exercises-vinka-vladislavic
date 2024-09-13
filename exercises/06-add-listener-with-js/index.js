@@ -5,3 +5,10 @@ window.onload = function myLoadFunction() {
 };
 
 // The listener function here
+const displayAlert = () => {
+	alert("woohoo")
+}
+
+const greenButton = document.getElementById("theGreen");
+greenButton.addEventListener("click", displayAlert)
+
